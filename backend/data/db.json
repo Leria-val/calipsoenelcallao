@@ -1,0 +1,94 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "titulo": "Sem acesso ao sistema",
+      "descricao": "Usuário não consegue logar desde a manhã.",
+      "tipo": "Incidente",
+      "prioridade": "Alta",
+      "status": "Triagem",
+      "responsavel": "",
+      "validado": false,
+      "criadoEm": "2026-07-01T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "titulo": "Solicitação de permissão",
+      "descricao": "Acesso ao módulo financeiro para novo colaborador.",
+      "tipo": "Requisição",
+      "prioridade": "Media",
+      "status": "Em atendimento",
+      "responsavel": "",
+      "validado": true,
+      "criadoEm": "2026-07-01T10:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "titulo": "Erro de ortografia na tela inicial",
+      "descricao": "Texto incorreto na home: 'Bem vinde' ao invés de 'Bem-vindo'.",
+      "tipo": "Incidente",
+      "prioridade": "Baixa",
+      "status": "Triagem",
+      "responsavel": "",
+      "validado": false,
+      "criadoEm": "2026-07-02T08:15:00.000Z"
+    },
+    {
+      "id": 4,
+      "titulo": "Servidor de e-mail fora do ar",
+      "descricao": "Nenhum e-mail está sendo enviado pelo sistema.",
+      "tipo": "Incidente",
+      "prioridade": "Alta",
+      "status": "Encerrados",
+      "responsavel": "Ana",
+      "validado": true,
+      "criadoEm": "2026-07-02T11:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "titulo": "Pedido de instalação de software",
+      "descricao": "Instalar leitor de PDF na máquina do setor comercial.",
+      "tipo": "Requisição",
+      "prioridade": "Baixa",
+      "status": "Encerrados",
+      "responsavel": "Carlos",
+      "validado": true,
+      "criadoEm": "2026-06-28T14:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "titulo": "enkdend",
+      "descricao": "j ed2kjwb dw kedkwe",
+      "tipo": "Incidente",
+      "prioridade": "Alta",
+      "status": "Triagem",
+      "responsavel": "",
+      "validado": false,
+      "criadoEm": "2026-07-06T13:47:03.445Z"
+    },
+    {
+      "id": 7,
+      "titulo": "hfjfyujfj2233211",
+      "descricao": "4k98j8kj58",
+      "tipo": "Incidente",
+      "prioridade": "Baixa",
+      "status": "Abertos",
+      "responsavel": "",
+      "validado": false,
+      "criadoEm": "2026-07-06T13:48:07.679Z"
+    }
+  ],
+  "bugs": [
+    {
+      "id": 1,
+      "titulo": "hedxvjev3x",
+      "local": "devjhvjehv",
+      "descricao": "gdkuguegig",
+      "causaRaiz": "uggedged",
+      "solucao": "",
+      "prioridade": "Baixa",
+      "status": "Em Analise",
+      "criadoEm": "2026-07-06T13:49:00.175Z"
+    }
+  ]
+}
