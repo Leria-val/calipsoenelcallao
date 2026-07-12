@@ -10,7 +10,11 @@ export default function NewTicketForm({ onCriar }) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    if (!titulo || !tipo || !prioridade) {
+  //decimo primer error: creo q permite espacios em blanco como dando solo un spacetab
+  //prioridad media
+  //antes: !titulo ahora !titulo.trim
+
+    if (!titulo.trim || !tipo || !prioridade) {
       setErro('Preencha ao menos o título, tipo e prioridade.');
       return;
     }

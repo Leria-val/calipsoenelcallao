@@ -1,7 +1,12 @@
+//decimo error: Leo mmgvo aqui el fokin error es q las insignias de prioridad estan intercambiadas
+//osea, alta esta como baja y baja esta como alta
+//prioridad alta pq ajá pero es un fix fácil pe mas que todo es los colores
+//solucion intercambiar esa mierda y ya nojoda
+
 function corPrioridade(prioridade) {
-  if (prioridade === 'Alta') return 'badge-baixa';
+  if (prioridade === 'Alta') return 'badge-alta';
   if (prioridade === 'Media') return 'badge-media';
-  if (prioridade === 'Baixa') return 'badge-alta';
+  if (prioridade === 'Baixa') return 'badge-baixa';
   return '';
 }
 

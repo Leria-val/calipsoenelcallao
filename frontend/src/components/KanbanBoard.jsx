@@ -2,6 +2,13 @@ import TicketCard from './TicketCard.jsx';
 
 const COLUNAS = ['Abertos', 'Triagem', 'Em atendimento', 'Encerrados'];
 
+//Noveno error: llave react equivocada
+//{ticketsDaColuna.map((ticket, index) => ( <TicketCard key={index} ...
+//ele usa o index do array ao inves de um id estavel ai ele mistura estado com identidade
+//quando a lista é filtrada, reordenado ou deletada
+//prioridade media
+//p solucionar é so botar {ticket.id} no lugar do index p ter um id estavel
+
 export default function KanbanBoard({ tickets, onAvancar, onValidar, onAbrir, onExcluir }) {
   return (
     <div className="board">
@@ -13,10 +20,10 @@ export default function KanbanBoard({ tickets, onAvancar, onValidar, onAbrir, on
               {coluna} <span className="count-pill">{ticketsDaColuna.length}</span>
             </h3>
             <div className="board-column-list">
-
+      
               {ticketsDaColuna.map((ticket, index) => (
                 <TicketCard
-                  key={index}
+                  key={ticket.id}
                   ticket={ticket}
                   onAvancar={onAvancar}
                   onValidar={onValidar}
